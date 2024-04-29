@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": ">=18"
+    "node": "18"
   },
   "scripts": {
     "dev": "tsx src/serve.ts",
-    "build": "tsup src",
+    "build": "tsup src build --output ./public",
     "start": "node dist/serve.js"
   },
   "keywords": [],
