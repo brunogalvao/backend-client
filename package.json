@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "tsx src/serve.ts",
-    "build": "tsup src build --output ./public",
+    "build": "tsup src",
     "start": "node dist/serve.js"
   },
   "keywords": [],
