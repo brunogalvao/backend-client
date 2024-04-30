@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "builds": [
+        {
+            "src" : "src/serve.ts",
+            "use" : "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/src/serve.ts"
+        }
+    ],
+    "projectId":"prj_1BpN6egPZM8bH4rs2w89enmjC6rY",
+    "orgId":"team_1rhzUlcLDnzhlRNGqlvIHl80"
+}
